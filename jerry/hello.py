@@ -20,3 +20,9 @@ elif genre == "***Drama***":
     st.write("Get the popcorn.")
 elif genre == "Documentary :movie_camera:":
     st.write("Never stop learning.")
+
+st.button("Reset", type="primary")
+if st.button("Say hello"):
+    st.write("Why hello there")
+else:
+    st.write("Goodbye")
